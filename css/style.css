@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    --bg-color: #c6c4d1;
+    --text-color: #FFFFFF;
+    --htext-color: #000000;
+    --primary-color-hover: #301f4e;
+    --primary-color: #6441a5;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+
+.dark{
+    --bg-color: #1a112b;
+    --text-color:#FFFFFF;
+    --htext-color: #FFFFFF;
+    --primary-color: #6441a5;
+    --primary-color-hover: #301f4e;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.avatar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+    padding: 4px;
+    transition: border 800ms;
+}
+
+.avatar:hover{
+    border: 5px solid var(--primary-color-hover);
+}
+
+h1{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: var(--htext-color);
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: .8rem;
+    letter-spacing: .1rem;
+}
+
+p{
+    font-style: italic;
+    font-size: 18px;
+    color: var(--htext-color);
+    font-family: 'Roboto Mono', monospace;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px 0px 95px;
+    font-size: 14px;
+    transition: background 400ms;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+ul li a:hover{
+    background-color: var(--primary-color-hover);
+}
+
+ul{
+    list-style: none;
+    margin: 30px 0;
+}
+
+ul li{
+    margin-bottom: 16px;
+}
+
+.fa-brands{
+    display: inline-block;
+    width: 40px;
+    font-size: 28px;
+}
+
+footer{
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    color: var(--htext-color);
+}
