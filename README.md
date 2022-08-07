@@ -12,7 +12,7 @@ O projeto foi desenvolvido durante a Maratona Explorer 2.0 2022 da Rocketseat co
 
 ## 💻 Demonstração
 
-Você pode acessar a <a href="https://luccasmg.github.io/projeto-rocketlinks/" target="_blank">versão final do projeto</a>.
+Você pode acessar a <a href="https://luccasmg.github.io/rocketlinks/" target="_blank">versão final do projeto</a>.
 
 ## ✏️ Autor
 
